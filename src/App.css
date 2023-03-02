@@ -1,0 +1,69 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.container {
+    background-color: #202020;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #CC9;
+    padding: 1rem;
+    width: 20rem;
+    border-radius: 10px;
+}
+
+.title {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.subTitle {
+    font-size: 0.75rem;
+    color: #666;
+    margin: .5rem 0;
+    font-weight: 500;
+}
+
+.input{
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #333;
+    color: #333;
+    background-color: #ffff;
+    font-size: 0.7rem;
+    width: 75%;
+    outline: none;
+    margin: .5rem 0;
+}
+.button{
+    border: none;
+    background-color: #333;
+    color: #fff;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.qrcode{
+    margin: 1rem 0;
+    background-color: #fff;
+    width: 75%;
+    border: 1px solid #333;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
